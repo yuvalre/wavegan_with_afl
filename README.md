@@ -14,7 +14,7 @@ done purely by back-propagation, during training. Firas Shama, Roey Mechrez, Alo
 &nbsp;
 &nbsp;
 
-Essentially, this feedback module could be added to a pre-trained GAN, and with very little additional training of the feedback module, improve its results. I decided to examine the effects of adding the feedback module to WaveGAN, a GAN that synthesizes raw waveform audio after observing many examples of real audio [<b>[project page]</b>](https://github.com/chrisdonahue/wavegan).
+Essentially, this feedback module could be added to a pre-trained GAN, and with very little additional training of the feedback module, improve its results. I decided to examine the effects of adding the feedback module to WaveGAN, a GAN that synthesizes raw waveform audio after observing many examples of real audio. [<b>[project page]</b>](https://github.com/chrisdonahue/wavegan)
 
 <img src="WaveGAN/static/wavegan.png"/>
 
