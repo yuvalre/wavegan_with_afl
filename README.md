@@ -3,11 +3,16 @@
 Classic GAN is composed of two components: the generator (G) and the discriminator (D). In this setting, the information flow is
 done purely by back-propagation, during training. Firas Shama, Roey Mechrez, Alon Shoshan & Lihi Zelnik-Manor proposed adding a third component – a feedback module that transmits the discriminatory spatial information to the generator in a feedback manner at inference time. This proved to substantially improve the quality of GANs in image generation tasks like face generation and super-resolution. [<b>[project page]</b>](https://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/AFL/)
 
-<div align='center'>
-<img src="AFL/readme/abstract.png" width="600px"/><br>
-<b>The Adversarial Feedback Loop</b>
-</div>
 
+&nbsp;
+
+<p align="center">
+  <b>The Adversarial Feedback Loop</b><br>
+
+<img src="AFL/readme/abstract.png" width="600px"/>
+</p>
+&nbsp;
+&nbsp;
 
 Essentially, this feedback module could be added to a pre-trained GAN, and with very little additional training of the feedback module, improve its results. I decided to examine the effects of adding the feedback module to WaveGAN, a GAN that synthesizes raw waveform audio after observing many examples of real audio [<b>[project page]</b>](https://github.com/chrisdonahue/wavegan).
 
